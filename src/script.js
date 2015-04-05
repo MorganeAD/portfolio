@@ -41,15 +41,15 @@ $(document).ready(
 			onStep:function(e,t,n)
 			{
 				var str="";
-				if (Math.round(n) < 50) 
+				if (Math.round(n) <= 50) 
 				{
 					str="Basique"
 				}
-				else if (Math.round(n) < 65) 
+				else if (Math.round(n) <= 65) 
 				{
 					str="Intermédiaire"
 				}
-				else if (Math.round(n) < 80) 
+				else if (Math.round(n) <= 80) 
 				{
 					str="Bon"
 				}

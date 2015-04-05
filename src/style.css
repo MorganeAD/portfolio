@@ -1028,7 +1028,9 @@ font-size:14px;
 line-height:20px;
 font-style:italic}
 
-.carousel-inner > .item > img{ width:auto; height:360px;}
+
+
+.carousel-inner > .item > img{ width:auto; height:400px; margin: 0px; margin-right: auto;margin-left: auto}
 
 .carousel-caption{
 	margin: 0;
